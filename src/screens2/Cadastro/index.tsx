@@ -131,8 +131,8 @@ export function Cadastro() {
         </div>
         <div>
           <div>
-            <h3>Capa:</h3>
-            <h2>Link Imagem Capa:</h2>
+            <h2>Capa:</h2>
+            <h3>Link Imagem Capa:</h3>
             <input
               value={imagem}
               onChange={(event) => setImagem(event.target.value)}
